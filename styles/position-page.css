@@ -1,1 +1,72 @@
 
+/*Element targets*/
+body{
+	background-image: url("../images/outerspace_landscape.jpeg");
+	background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+nav{
+	background-color: grey;
+	position: fixed;
+	width: 100%;
+	padding-left: 60px;
+	padding-right: 60px;
+	
+}
+
+/*List holder and elements*/
+ul{
+    position:fixed;
+	left:100px;
+	display: inline;
+}
+li{
+	display: inline;
+}
+
+/*Class targets*/
+.round {
+    border-radius: 50%;
+    border: solid black 2px;
+}
+.icon{
+	height:50px;
+	position:relative;
+	left:20px;
+}
+.dotted{
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;	
+	width: 800px;
+	height: 500px;
+
+}
+
+.center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+.images{
+	position: absolute;
+	width: 200px;
+	height:200px;
+}
+.dog{
+	
+    right: 0px;
+    bottom: 0px;
+
+
+}
+
